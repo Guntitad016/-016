@@ -1,0 +1,147 @@
+    :root{
+        --yellow:#FFCE00;
+        --black:#000;
+        --white:#fff;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container{
+        max-width: 1170px;
+        margin: 0 auto;
+        background-color: #8c8c8c;
+    }
+
+    nav{
+        background-color: var(--black);
+        color: black;
+        height: 80px;
+    }
+
+    .nav-con{
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        align-items: center;
+        background-color: #8c8c8c;
+    }
+
+    ul.menu{
+        display: flex;
+        list-style: none;
+    }
+
+    ul.menu li{
+        margin: 0 1rem;
+    }
+
+    ul.menu li a{
+        color: black;
+        text-decoration: none;
+    }
+
+    .blog{
+        background: var(--white);
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .blog-title{
+        text-align: center;
+
+    }
+
+    .blog-title p{
+        color: var(--black);
+        font-size: 1.2rem;
+    }
+
+    .blog{
+        background: #a6a6a6;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .blog-title{
+        text-align: center;
+    }
+
+    .blog-title h3{
+        color: black;
+        font-size: 2rem;
+    }
+
+    .blog-title p{
+        color: var(--black);
+        font-size: 1.2rem;
+    }
+
+    .blog-posts{
+        margin: 2rem 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem; ;
+    }
+
+    .blog-post img{
+        width: 300px;
+        border-bottom: 10px solid var(--yellow);
+        border-radius: 25px;
+        display: flex;
+        
+    }
+
+    .blog-posts h3{
+        color: var(--black);
+        margin: .5rem 0;
+    }
+
+    .blog-posts p{
+        color: var(--black);
+        line-height: 20px;
+    }
+
+    .blog-post-btn{
+        background: var(--yellow);
+        color: var(--black);
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        display: inline-block;
+        margin-top: 2rem;
+    }
+
+    .blog-cons{
+        background-color: #cccccc;
+        font: var(--black);
+    }
+
+    .blog-title h3{
+        color: var(--black);
+        font-size: 3rem;
+        border-top: 10px solid #8c8c8c;
+        border-bottom: 10px solid #8c8c8c;
+    }
+    
+    .footer{
+        background-color: #8c8c8c;
+    }
+    
+    .footer h4{
+        color: var(--black);
+        font-size: 2rem;
+        background-color: #999999;
+        padding: 10px;
+        display: inline-block;
+        border-radius: 25px;
+    }
+
+    .footer ul{
+        color: var(--black);
+        font-size: 1rem;
+        background-color: #999999;
+        border-radius: 25px;
+    }
